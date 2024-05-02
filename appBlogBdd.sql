@@ -26,8 +26,8 @@ INSERT INTO post (titre, contenu) VALUES
 ('Reverb', "La reverb permet d'ajouter de la profondeur à un son, en le 'localisant' dans un espace");
 
 INSERT INTO commentaires (auteur, contenu, id_post) VALUES
-('Pierre', 'Pas ouf', 1),
-('Tom', 'super (y)', 1),
+('Pierre', 'g pas compri', 1),
+('Tom', 'super', 1),
 ('Bill', 'meh', 2),
 ('Laurent', 'génial', 3);
 
