@@ -21,10 +21,10 @@ CREATE TABLE commentaires(
 );
 
 INSERT INTO post (titre, contenu) VALUES
-('SALUT', 'Hello_world');
+('Le message', 'Hello_world');
 
 INSERT INTO commentaires (auteur, contenu, id_post) VALUES
 ('Pierre', 'Pas ouf', 1);
 
-SELECT auteur, commentaires.contenu, titre AS post FROM commentaires JOIN post ON commentaires.id_post = post.id ;
+SELECT auteur, commentaires.contenu AS commentaire, titre AS post FROM commentaires JOIN post ON commentaires.id_post = post.id ;
 
