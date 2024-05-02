@@ -3,11 +3,11 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Blog</title>
+    <title>Le Blog de ouf</title>
 </head>
 <body>
     <?php
-    
+
     ?>
 </body>
 </html>

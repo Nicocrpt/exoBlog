@@ -21,9 +21,9 @@ CREATE TABLE commentaires(
 );
 
 INSERT INTO post (titre, contenu) VALUES
-('Post 1', 'qslfjqslgmqsjgmlqsfkkmlq'),
-('Post 2', 'qsglqsfjfksjkljglkjslkfj'),
-('post 3', 'qsfkljfqlshjglkqsjhglkqs');
+('EQ', "Il sert à gerer le volume des differentes fréquences d'une source audio"),
+('Compresseur', "Le compresseur permet d'influer sur la dynamique d'un son, pour tasser celle ci par exemple"),
+('Reverb', "La reverb permet d'ajouter de la profondeur à un son, en le 'localisant' dans un espace");
 
 INSERT INTO commentaires (auteur, contenu, id_post) VALUES
 ('Pierre', 'Pas ouf', 1),
